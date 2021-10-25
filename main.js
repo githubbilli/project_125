@@ -27,7 +27,7 @@ function gotPoses(results) {
 
 function draw() {
     background('#FFFF00');
-    document.getElementById("font_size").innerHTML = "Font size of the text will be = " + difference +"px";
+    document.getElementById("square_sides").innerHTML = "Font size of the text will be = " + difference +"px";
     textSize(difference);
     fill('yellow');
     text('Peter', 50, 400);
